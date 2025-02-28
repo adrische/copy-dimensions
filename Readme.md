@@ -2,21 +2,19 @@
 
 Select one object, copy its dimensions (width, height, and location on the slide), and apply these dimensions to another object. Especially helpful if you want to align objects across several pages.
 
-## How to run
 
-* Download or clone the repository
-
-* Run: 
-`npm start`
-
-* A fresh Powerpoint presentation should open with the add-in visible. 
+![Screen recording showing how to copy dimensions](/assets/screen-recording-copy-dimensions.gif)
 
 
-## Troubleshooting
+## Installation
 
-If the add-in is not immediately visible, you can try the following things:
+**Currently only Mac is supported**
 
-* Check the [folder locations](https://learn.microsoft.com/en-us/office/dev/add-ins/testing/test-debug-office-add-ins#sideload-an-office-add-in-for-testing) for "side-loading" add-ins, this is the process that has been used in this setup to make the application visible. For example, on MacOS, the there should be a `something.manifest.xml` file in the folder `/Users/XXXX/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef`
+* Close Powerpoint.
 
-* Within Powerpoint, go to "Home", then "Add-ins", the add-in should be available under "Developer Add-ins".
+* Download the [manifest.xml](https://copy-dimensions.vercel.app/manifest.xml) file and place it in the following folder:
+ `/Users/<username>/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef`
+ If this folder does not exist, please created it. This process is called [side-loading](https://learn.microsoft.com/en-us/office/dev/add-ins/testing/test-debug-office-add-ins#sideload-an-office-add-in-for-testing)
+
+* Open a fresh instance of Powerpoint, go to "Home", then "Add-ins", the add-in should be available under "Developer Add-ins".
 
