@@ -20,3 +20,9 @@ Select an object, copy its dimensions (width, height, and location on the slide)
 
 * Open a fresh instance of Powerpoint, go to "Home", then "Add-ins", the add-in should be available under "Developer Add-ins".
 
+
+## To do 
+
+* Visual indication that clicking on "copy" and "paste" was successful
+* Vibe coding in powerpoint: link textbox to LLM, ask it to produce a typescript funection implementing the ask & then directly perform the action
+* Rounded boxes change the corner radius when resized. Copy paste the border radius from one box to the other
