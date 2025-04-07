@@ -24,5 +24,5 @@ Select an object, copy its dimensions (width, height, and location on the slide)
 ## To do 
 
 * Visual indication that clicking on "copy" and "paste" was successful
-* Vibe coding in powerpoint: link textbox to LLM, ask it to produce a typescript funection implementing the ask & then directly perform the action
-* Rounded boxes change the corner radius when resized. Copy paste the border radius from one box to the other
+* Vibe coding in Powerpoint: link textbox to LLM, ask it to produce a typescript function implementing the ask & then directly perform the action (-> not all functionality of Powerpoint is exposed via the office.js library, e.g., the corner radius of rounded rectangles)
+* Rounded boxes change the corner radius when resized. Copy paste the border radius from one box to the other (-> this seems only to be possible via VBA or via unzipping the ppt and modifying the resulting XML)
